@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Cristian David Nievas Lozano",
-    "label": "Entusiasta del Desarrollo Web y la Programación & Estudiante de DAW con formación en SMX",
+    "label": "Desarrollador Web FullStack",
     "image": "/me.webp",
     "email": "cnievaslozano@gmail.com",
     "phone": "+34 675783436",
@@ -34,7 +34,7 @@
       "url": "https://granota.net",
       "startDate": "2023-01-01",
       "endDate": "2024-01-01",
-      "summary": "Durante mi tiempo en Granota, he estado involucrado en el desarrollo de un proyecto de gestión de clientes, donde he aplicado buenas prácticas y técnicas de organización. Mi enfoque se centra en proporcionar una experiencia agradable e intuitiva para el usuario final.",
+      "summary": "Durante mi tiempo en Granota, estuve involucrado en el desarrollo de un proyecto de gestión de clientes (CRM) con Symfony, donde apliqué buenas prácticas y técnicas de organización. Planifiqué la aplicación de principio a fin, organizándome por tareas y objetivos, y llevé a cabo un proyecto íntegro y escalable.",
       "highlights": [
         "Started the company"
       ]
@@ -45,7 +45,7 @@
       "url": "https://www.pontsoft.cat/",
       "startDate": "2020-04-01",
       "endDate": "2020-07-01",
-      "summary": "Mejoré mi capacidad para trabajar mi enfoque proactivo para identificar y solucionar problemas de hardware y software, configurando estaciones de trabajo y garantizando la seguridad. También me ha permitido construir atender clientes y garantizar una experiencia positiva",
+      "summary": "Mejoré mi capacidad para trabajar mi enfoque proactivo, para identificar y solucionar problemas de hardware y software, configurando estaciones de trabajo y garantizando la seguridad. También me ha permitido ganar experiencia tratando con clientes, y garantizar una experiencia positiva.",
       "highlights": [
         "Started the company"
       ]
@@ -85,7 +85,7 @@
     {
       "institution": "Fundación Esplai ICT",
       "url": "https://fundacionesplai.org/",
-      "area": "Bootcamp Java SpringBoot & Angular",
+      "area": "Bootcamp Java SpringBoot & React",
       "studyType": "Bachelor",
       "startDate": "2024-01-01",
       "endDate": null,
@@ -121,10 +121,10 @@
     {
       "institution": "Instituto Roseta Mauri",
       "url": "http://www.insrosetamauri.org",
-      "area": "Educación Superior Obligatorio",
+      "area": "Educación Secundaria Obligatoria",
       "studyType": "Bachelor",
-      "startDate": "2020-01-01",
-      "endDate": "2022-01-01",
+      "startDate": "2016-01-01",
+      "endDate": "2020-01-01",
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
