@@ -14,6 +14,9 @@ import { work } from "@cv";
             endDate != null ? new Date(endDate).getFullYear() : "Actual";
           const years = `${startYear} - ${endYear}`;
 
+          // Divide el summary en elementos de lista
+          const summaryItems = summary.split('- ').filter(item => item.trim() !== '');
+
           return (
             <li>
               <article>
@@ -31,7 +34,11 @@ import { work } from "@cv";
                 </header>
 
                 <footer>
-                  <p>{summary}</p>
+                  <ul>
+                    {summaryItems.map((item) => (
+                      <li ><p>{item}</p></li>
+                    ))}
+                  </ul>
                 </footer>
               </article>
             </li>
@@ -47,6 +54,15 @@ import { work } from "@cv";
     display: flex;
     flex-direction: column;
     gap: 32px;
+  }
+
+  ul ul {
+    margin-top: 10px;
+    margin-left: 22px;
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   article h3 {
