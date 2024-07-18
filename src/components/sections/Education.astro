@@ -18,18 +18,18 @@ import { education } from "@cv";
             <article>
               <header>
                 <div>
-                  <h3>
-                    <a href={url} title={`Ver ${institution}`} target="_blank">
-                      {institution}
-                    </a>
-                  </h3>
+                  <h3>{area}</h3>
                 </div>
 
                 <time>{years}</time>
               </header>
 
               <footer>
-                <p>{area}</p>
+                <p>
+                  <a href={url} title={`Ver ${institution}`} target="_blank">
+                    {institution}
+                  </a>
+                </p>
               </footer>
             </article>
           </li>
@@ -70,6 +70,10 @@ import { education } from "@cv";
     color: #555;
     font-size: 0.85rem;
     min-width: 102px;
+  }
+
+  footer p a {
+    color: #555
   }
 
   @media (width <= 700px) {

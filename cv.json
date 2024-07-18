@@ -6,7 +6,7 @@
     "email": "cnievaslozano@gmail.com",
     "phone": "+34 675783436",
     "url": "https://cnievaslozano.netlify.app/",
-    "summary": "Desde pequeño, me ha interesado la tecnología, lo que me impulsa a estar en constante aprendizaje y búsqueda de nuevos desafíos. Tengo la capacidad de absorber conocimientos rápidamente y la iniciativa necesaria para enfrentar nuevos proyectos.",
+    "summary": "Desde pequeño, me ha interesado la tecnología, lo que me impulsa a estar en constante aprendizaje y búsqueda de nuevos desafíos. Tengo la capacidad de absorber conocimientos rápidamente, y la iniciativa necesaria para enfrentar nuevos proyectos.",
     "location": {
       "address": "",
       "postalCode": "43205",
@@ -44,7 +44,7 @@
       "position": "Técnico informático en Prácticas (378h)",
       "url": "https://www.pontsoft.cat/",
       "startDate": "2020-04-01",
-      "endDate": "2020-07-01",
+      "endDate": "2021-07-01",
       "summary": "- Atención al cliente - Resolución de problemas de hardware y software - Configuración de estaciones de trabajo",
       "highlights": [
         "Started the company"
@@ -97,7 +97,7 @@
     {
       "institution": "Instituto Baix Camp",
       "url": "https://www.insbaixcamp.org/",
-      "area": "Ciclo Formativo de Grado Superior DAW",
+      "area": "CFGS DAW - Desarrollo de Aplicaciones Web  ",
       "studyType": "Bachelor",
       "startDate": "2022-01-01",
       "endDate": "2024-01-01",
@@ -109,22 +109,10 @@
     {
       "institution": "Instituto Baix Camp",
       "url": "https://www.insbaixcamp.org/",
-      "area": "Ciclo Formativo de Grado Medio SMX",
+      "area": "CFGM SMR - Sistemas Microinformáticos y Redes",
       "studyType": "Bachelor",
       "startDate": "2020-01-01",
       "endDate": "2022-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    },
-    {
-      "institution": "Instituto Roseta Mauri",
-      "url": "http://www.insrosetamauri.org",
-      "area": "Educación Secundaria Obligatoria",
-      "studyType": "Bachelor",
-      "startDate": "2016-01-01",
-      "endDate": "2020-01-01",
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"

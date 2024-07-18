@@ -15,19 +15,21 @@ import { work } from "@cv";
           const years = `${startYear} - ${endYear}`;
 
           // Divide el summary en elementos de lista
-          const summaryItems = summary.split('- ').filter(item => item.trim() !== '');
+          const summaryItems = summary
+            .split("- ")
+            .filter((item) => item.trim() !== "");
 
           return (
             <li>
               <article>
                 <header>
                   <div>
-                    <h3>
+                    <h3>{position}</h3>
+                    <h4>
                       <a href={url} title={`Ver ${name}`} target="_blank">
                         {name}
                       </a>
-                    </h3>
-                    <h4>{position}</h4>
+                    </h4>
                   </div>
 
                   <time>{years}</time>
@@ -36,14 +38,16 @@ import { work } from "@cv";
                 <footer>
                   <ul>
                     {summaryItems.map((item) => (
-                      <li ><p>{item}</p></li>
+                      <li>
+                        <p>{item}</p>
+                      </li>
                     ))}
                   </ul>
                 </footer>
               </article>
             </li>
           );
-        },
+        }
       )
     }
   </ul>
