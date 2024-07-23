@@ -4,8 +4,9 @@
     "label": "Desarrollador Web FullStack",
     "image": "/me.webp",
     "email": "cnievaslozano@gmail.com",
+    "web": "cnievaslozano.es",
     "phone": "+34 675783436",
-    "url": "https://cnievaslozano.netlify.app/",
+    "url": "https://cv.cnievaslozano.es/",
     "summary": "Desde pequeño, me ha interesado la tecnología, lo que me impulsa a estar en constante aprendizaje y búsqueda de nuevos desafíos. Tengo la capacidad de absorber conocimientos rápidamente, y la iniciativa necesaria para enfrentar nuevos proyectos.",
     "location": {
       "address": "",
@@ -18,12 +19,12 @@
       {
         "network": "LinkedIn",
         "username": "cnievaslozano",
-        "url": "https://www.linkedin.com/in/cnievaslozano/"
+        "url": "linkedin.com/in/cnievaslozano"
       },
       {
         "network": "GitHub",
         "username": "cnievaslozano",
-        "url": "https://github.com/cnievaslozano"
+        "url": "github.com/cnievaslozano"
       }
     ]
   },
