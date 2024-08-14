@@ -7,7 +7,7 @@
     "web": "cnievaslozano.es",
     "phone": "+34 675783436",
     "url": "https://cv.cnievaslozano.es/",
-    "summary": "Desde pequeño, me ha interesado la tecnología, lo que me impulsa a estar en constante aprendizaje y búsqueda de nuevos desafíos. Tengo la capacidad de absorber conocimientos rápidamente, y la iniciativa necesaria para enfrentar nuevos proyectos.",
+    "summary": "Desde pequeño, me ha interesado la tecnología, lo que me impulsa a estar en constante aprendizaje y búsqueda de nuevos desafíos. Tengo la capacidad de absorber conocimientos rápidamente, y la iniciativa para enfrentar nuevos proyectos.",
     "location": {
       "address": "",
       "postalCode": "43205",
@@ -25,6 +25,11 @@
         "network": "GitHub",
         "username": "cnievaslozano",
         "url": "github.com/cnievaslozano"
+      },
+      {
+        "network": "Web",
+        "username": "cnievaslozano.es",
+        "url": "cnievaslozano.es"
       }
     ]
   },
@@ -35,13 +40,13 @@
       "url": "https://granota.net",
       "startDate": "2023-01-01",
       "endDate": "2024-01-01",
-      "summary": "- Desarrollo de CRM con Symfony - Aplicación de buenas prácticas - Organización y planificación - Implementación de soluciones escalables",
+      "summary": "- Desarrollo de CRM con Symfony - Organización y planificación de BD - Buenas prácticas y soluciones escalables",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Dynamic.cat Pontsoft",
+      "name": "Pontsoft S.L",
       "position": "Técnico informático en Prácticas (378h)",
       "url": "https://www.pontsoft.cat/",
       "startDate": "2020-04-01",
@@ -54,12 +59,7 @@
   ],
   "language": [
     {
-      "name": "Español",
-      "level": "Nativo",
-      "certificate": ""
-    },
-    {
-      "name": "Catalán",
+      "name": "Español y Catalán",
       "level": "Nativo",
       "certificate": ""
     },
@@ -84,9 +84,9 @@
   ],
   "education": [
     {
-      "institution": "Fundación Esplai ICT",
+      "institution": "Fundación Esplai ICT, Reus",
       "url": "https://fundacionesplai.org/",
-      "area": "Bootcamp Java SpringBoot & React",
+      "area": "Bootcamp Java SpringBoot & React (376h)",
       "studyType": "Bachelor",
       "startDate": "2024-01-01",
       "endDate": null,
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "institution": "Instituto Baix Camp",
+      "institution": "Instituto Baix Camp, Reus",
       "url": "https://www.insbaixcamp.org/",
       "area": "CFGS DAW - Desarrollo de Aplicaciones Web  ",
       "studyType": "Bachelor",
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "institution": "Instituto Baix Camp",
+      "institution": "Instituto Baix Camp, Reus",
       "url": "https://www.insbaixcamp.org/",
       "area": "CFGM SMR - Sistemas Microinformáticos y Redes",
       "studyType": "Bachelor",
@@ -237,6 +237,15 @@
       ]
     },
     {
+      "name": "SpringBoot",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
+    },
+    {
       "name": "MySQL",
       "level": "Avanzado",
       "keywords": [
@@ -256,35 +265,7 @@
         "Backend"
       ]
     },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
-      ]
-    },
-    {
-      "name": "Linux",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
+    
     {
       "name": "Docker",
       "level": "Master",

@@ -9,9 +9,9 @@ import { education } from "@cv";
     {
       education.map(({ institution, startDate, endDate, area, url }) => {
         const startYear = new Date(startDate).getFullYear();
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual";
-        const years = `${startYear} - ${endYear}`;
+        const endYear = endDate != null ? new Date(endDate).getFullYear() : "";
+        const years = endDate != null ? `${startYear} - ${endYear}` : `${startYear}`;
+        const timeStyle = endDate == null ? { textAlign: "center" } : {};
 
         return (
           <li>
@@ -20,8 +20,7 @@ import { education } from "@cv";
                 <div>
                   <h3>{area}</h3>
                 </div>
-
-                <time>{years}</time>
+                <time style={timeStyle}>{years}</time>
               </header>
 
               <footer>

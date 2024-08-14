@@ -1,6 +1,7 @@
 ---
 import { basics } from "@cv";
 import Section from "@/components/Section.astro";
+import Web from "@/icons/web.astro";
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
 import X from "@/icons/X.astro";
@@ -16,18 +17,18 @@ const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn,
   X,
+  Web,
 };
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
 const linkedUrl = linkedInfo?.url;
 
-/*const githubInfo = profiles.find(({ network }) => network === "GitHub");
+const githubInfo = profiles.find(({ network }) => network === "GitHub");
 const githubUrl = githubInfo?.url;
-const printInfo = [email, phone, linkedUrl, githubUrl].filter(Boolean).join(" • ");*/
+const printInfo = [web, email, phone, linkedUrl, githubUrl].filter(Boolean).join(" • ");
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 
-const hrefWeb = "https://" + web;
+
 ---
 
 <Section>
@@ -39,9 +40,7 @@ const hrefWeb = "https://" + web;
         <WorldMap />
         {city}, {region}
       </span>
-      <span>
-        <a href={hrefWeb}>{web}</a>
-      </span>
+    
       <footer class="print">
         {printInfo}
       </footer>
